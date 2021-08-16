@@ -1,0 +1,63 @@
+*.doc  diff=astextplain
+*.DOC	diff=astextplain
+*.docx	diff=astextplain
+*.DOCX	diff=astextplain
+*.dot	diff=astextplain
+*.DOT	diff=astextplain
+*.pdf	diff=astextplain
+*.PDF	diff=astextplain
+*.rtf	diff=astextplain
+*.RTF	diff=astextplain
+
+*.jpg  	binary
+*.png 	binary
+*.gif 	binary
+
+*.cs text=auto diff=csharp
+*.vb text=auto
+
+*.py text=auto
+*.rb text=auto
+*.java text=auto
+*.js text=auto eol=lf
+*.css text=auto
+*.scss text=auto
+*.sass text=auto
+*.less text=auto
+*.lisp text=auto
+*.clj text=auto
+*.sql text=auto
+*.php text=auto
+*.lua text=auto
+*.m text=auto
+*.asm text=auto
+*.erl text=auto
+*.fs text=auto
+*.fsx text=auto
+*.hs text=auto
+
+*.csproj text=auto merge=union
+*.vbproj text=auto merge=union
+*.fsproj text=auto merge=union
+*.dbproj text=auto merge=union
+
+*.vcxproj text=auto merge=union
+*.sln text=auto eol=crlf merge=union
+
+
+# From the editorconfig
+*.c text eol=lf
+*.cc text eol=lf
+*.cpp text eol=lf
+*.cxx text eol=lf
+*.h text eol=lf
+*.hh text eol=lf
+*.hpp text eol=lf
+*.hxx text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.rc text eol=crlf
+*.htm text eol=crlf
+*.html text eol=crlf
